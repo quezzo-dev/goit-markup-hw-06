@@ -70,6 +70,59 @@
             <div class="modal-cross" data-modal-close>
               <img src="./images/cross.svg" width="11" alt="Крестик" />
             </div>
+
+            <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
+
+            <form class="modal-form">
+              <div class="form-group">
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name" class="form-input" />
+                <svg class="input-icon">
+                  <use href="./images/icons.svg#user"></use>
+                </svg>
+              </div>
+
+              <div class="form-group">
+                <label for="tel">Телефон</label>
+                <input type="tel" name="tel" id="tel" class="form-input" />
+                <svg class="input-icon">
+                  <use href="./images/icons.svg#tel"></use>
+                </svg>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Почта</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-input"
+                />
+                <svg class="input-icon">
+                  <use href="./images/icons.svg#e-mail"></use>
+                </svg>
+              </div>
+
+              <div class="form-group">
+                <label for="comment">Коментарий</label>
+                <textarea
+                  name="comment"
+                  id="comment"
+                  rows="8"
+                  placeholder="Введите текст"
+                ></textarea>
+              </div>
+
+              <label class="policy-label">
+                <input type="checkbox" class="policy" name="policy" />
+
+                <span class="checkbox-icon"></span>
+                Соглашаюсь с рассылкой и принимаю
+                <a href="#"> Условия договора</a>
+              </label>
+
+              <button type="submit" class="form-button">Отправить</button>
+            </form>
           </div>
         </div>
       </section>
@@ -449,6 +502,22 @@
               </a>
             </li>
           </ul>
+        </div>
+
+        <div class="footer-form">
+          <h2 class="social-title">Подпишитесь на рассылку</h2>
+
+          <form>
+            <div class="footer-form-group">
+              <input type="email" name="footer-email" placeholder="E-mail" />
+              <button type="submit" class="form-button">
+                Подписаться
+                <svg class="form-icons">
+                  <use href="./images/icons.svg#send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
