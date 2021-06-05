@@ -123,6 +123,11 @@ svg {
 
 textarea {
   resize: none;
+  outline: none;
+}
+
+input {
+  outline: none;
 }
 /* ========== END COMPONENTS ========== */
 
@@ -378,6 +383,7 @@ textarea {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
+  outline: none;
 
   color: rgba(117, 117, 117, 0.5);
 }
@@ -870,6 +876,7 @@ textarea {
   border-radius: 4px;
   padding: 15px 16px;
   margin-right: 12px;
+  color: var(--white-color);
 }
 
 /* ========== END FOOTER ========== */
